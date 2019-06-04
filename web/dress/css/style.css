@@ -1,0 +1,258 @@
+.header{
+	height: 80px;
+}
+.header-c{
+	position: relative;
+	height: 80px;
+	width: 1200px;
+	margin:0 auto;
+	background: #fff url(../img/logo.png) left center no-repeat;
+}
+.header-c .nav{
+	position: absolute;
+	right: 0;
+	height: 80px;
+}
+.header-c .nav .nav-item{
+	position: relative;
+	float: left;
+	width: 64px;
+	height: 100%;
+	font-size: 16px;
+	line-height: 80px;
+	text-align: center;
+	color: black;
+	margin-right: 82px
+}
+.nav .nav-item a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: black;
+}
+.nav .nav-item .line{
+	display: none;
+	position: absolute;
+	left: 0;
+	bottom: 26px;
+	height: 1px;
+	width: 100%;
+	background-color: #B9AB77;
+}
+.nav .nav-item.active{
+	width: 32px;
+}
+.nav .nav-item:hover a{
+	font-weight: bolder;	
+}
+.nav .nav-item:hover .line{
+	display: block;
+}
+.nav .nav-item.active a{
+	font-weight: bolder;	
+}
+.nav .nav-item.active .line{
+	display: block;
+}
+.main-c{
+	width: 1200px;
+	margin:0 auto;	
+}
+.dress1{
+	position: relative;
+	height: 880px;
+	background:url(../img/dress1.png) 0 100px no-repeat;
+}
+.dress1-text{
+	position: absolute;
+	top: 100px;
+	right:0;
+	height: 367px;
+	width: 416px;
+}
+.dress1-text .line{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 70px;
+	width: 2px;
+	background-color: #454545;
+
+}
+.dress1-text1{
+	color: #2C2C2C;
+	font-size: 27px;
+	margin-top: 22px;
+	margin-right: 190px;
+	text-align: right;
+}
+.dress1-text2{
+	color: #2C2C2C;
+	font-size: 13px;
+	margin-top: 9px;
+	margin-right: 190px;
+	text-align: right;
+}
+.dress1-text3{
+	color: #C5C5C5;
+	font-size: 13px;
+	margin-right: 190px;
+	margin-top: 28px;
+	text-align: right;
+}
+.dress1-text4{
+	color: #C5C5C5;
+	font-size: 13px;
+	margin-right: 190px;
+	margin-top: 10px;
+	text-align: right;
+}
+.dress1-text5{
+	color: #C5C5C5;
+	font-size: 13px;
+	margin: 28px 18px 0 18px;
+}
+.dress2{
+	position: relative;
+	height: 1096px;
+	background:url(../img/dress2.png) 0 50px no-repeat;
+}
+.dress2-text{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 206px;
+	width: 710px;
+}
+.dress2-text1{
+	color: #6A6A6A;
+	font-size: 13px;
+}
+.dress2-text2{
+	color: #6A6A6A;
+	font-size: 13px;
+	margin-top: 40px;
+}
+.dress2-text3{
+	color: #6A6A6A;
+	font-size: 13px;
+	margin-top: 14px;
+}
+.more{
+	height: 555px;
+	background-color: #DDD;
+}
+.more-c{
+	width: 1200px;
+	height: 555px;
+	margin: 0 auto;
+}
+.more-title{
+	position: relative;
+	height: 170px;
+
+}
+.more-title a{
+	position: absolute;
+	bottom: 40px;
+	width: 75px;
+	height: 30px;
+	background-color: #F8F6F6;
+	color: #929292;
+	font-size: 12px;
+	text-align: center;
+	line-height: 30px;
+}
+.more-title .more-title2{
+	left: 115px;
+}
+.more-img{
+	position: relative;
+	height: 220px;
+}
+.more-item{
+	float: left;
+	height: 220px;
+	width: 160px;
+	background-color: #fff;
+	margin-right: 48px;
+}
+.more-item6{
+	margin-right: 0px;
+	background:url(../img/more6.png) center no-repeat;
+}
+.more-item1{
+	background:url(../img/more1.png) center no-repeat;
+}
+.more-item2{
+	background:url(../img/more2.png) center no-repeat;
+}
+.more-item3{
+	background:url(../img/more3.png) center no-repeat;
+}
+.more-item4{
+	background:url(../img/more4.png) center no-repeat;
+}
+.more-item5{
+	background:url(../img/more5.png) center no-repeat;
+}
+.more-img .arr{
+	position: absolute;
+	bottom: 84px;
+	height: 50px;
+	width: 32px;
+}
+.more-img .arr.left{
+	left:-46px;
+	background:#CACACA url(../img/arr1.png) center no-repeat;
+}
+.more-img .arr.right{
+	right:-46px;
+	background:#CACACA url(../img/arr2.png) center no-repeat;
+}
+.more-more{
+	display: block;
+	width: 148px;
+	height: 43px;
+	border: 1px solid #BDBCBC;
+	color:#BDBCBC;
+	font-size: 11px;
+	line-height: 45px;
+	text-align: center;
+	margin:0 auto;
+	margin-top:60px;
+	margin-bottom: 60px;
+}
+.footer{
+	height: 100px;	
+	background-color: #4F4F4F;
+}
+.footer-c{
+	position: relative;
+	height: 100px;	
+	width: 1200px;
+	margin:0 auto;
+	overflow: hidden;
+	color:#F3F3F3;
+}
+.footer-text1{	
+	font-size: 12px;
+	line-height: 24px;
+	margin-top:40px;
+}
+.footer-text2{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100px;
+	font-size: 12px;
+	line-height: 100px;	
+	
+}
+.footer-text2 span{
+	margin-left: 50px;
+}
+.footer-text2 .footer-item{
+	background:url(../img/footerlogo.png) 0px center no-repeat;
+}
+
